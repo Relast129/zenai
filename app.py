@@ -15,7 +15,7 @@ if st.button("Send"):
         with st.spinner("Thinking..."):
             # OpenRouter API info
             API_URL = "https://openrouter.ai/api/v1/chat/completions"
-            API_KEY = st.secrets["OPENROUTER_API_KEY"]  # Store your key securely in Streamlit secrets
+            API_KEY = st.secrets["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"]  # Store your key securely in Streamlit secrets
 
             headers = {
                 "Authorization": f"Bearer {API_KEY}",
